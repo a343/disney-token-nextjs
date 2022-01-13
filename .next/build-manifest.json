@@ -30,6 +30,11 @@
       "static/chunks/main.js",
       "static/chunks/pages/disney_admin.js"
     ],
+    "/food_admin": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/food_admin.js"
+    ],
     "/user_admin": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",

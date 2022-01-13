@@ -1,12 +1,12 @@
 import web3 from "./web3";
 
 //Deployed by truflle
-/*const contractJSON = require('../../build/contracts/Disney.json')
+const contractJSON = require('../../build/contracts/Disney.json')
 const { abi, networks } = contractJSON
-const { address } = networks[Object.keys(networks)[0]]*/
+const { address } = networks[Object.keys(networks)[0]]
 
 //Deployed from remix and copied the address and abi (application binary interface) 
-const address='0xBB0d7cdb7d589a128C7EcC87E2778049807F9D5B';
+/*const address='0xBB0d7cdb7d589a128C7EcC87E2778049807F9D5B';
 const abi =[
 	{
 		"inputs": [],
@@ -436,5 +436,5 @@ const abi =[
 		"type": "function"
 	}
 ]
-
+*/
 export default new web3.eth.Contract(abi, address);

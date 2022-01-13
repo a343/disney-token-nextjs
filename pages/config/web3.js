@@ -18,5 +18,6 @@ if (typeof window !== "undefined" && typeof window.ethereum !== "undefined") {
  web3 = new Web3(new Web3.providers.HttpProvider('http://localhost:7545')); // To use ganache
 
 }
+web3 = new Web3(new Web3.providers.HttpProvider('http://localhost:7545'));
 
 export default web3;

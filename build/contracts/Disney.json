@@ -16374,12 +16374,12 @@
     "5777": {
       "events": {},
       "links": {},
-      "address": "0xbD746C1CdcF3F1DaF21BF24F148E6dAC46DA114F",
-      "transactionHash": "0x79a4a01cb09e828cfd149687fc79c2426e3749f74b1972d3454d1f69f9e31022"
+      "address": "0x299b0986514836eeB443883AB6034fC8082Da4ac",
+      "transactionHash": "0x89244cc5de25a53b2da9ad4c63f50020cd61dff5579a6d4f0e27c94f6e9af830"
     }
   },
   "schemaVersion": "3.4.4",
-  "updatedAt": "2021-12-30T18:58:13.949Z",
+  "updatedAt": "2022-01-12T16:01:09.081Z",
   "networkType": "ethereum",
   "devdoc": {
     "kind": "dev",

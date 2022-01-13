@@ -20,11 +20,16 @@ const header = (props) => {
             <Menu style={{ marginTop: "10px" }}>
 
                 <Link route="/disney_admin">
-                    <a className="item">Disney Admin</a>
+                    <a className="item">Disney Administration</a>
                 </Link>
 
                 <Link route="/user_admin" >
-                    <a className="item">User Admin</a>
+                    <a className="item">User Enjoy</a>
+                </Link>
+
+                
+                <Link route="/food_admin" >
+                    <a className="item">Food</a>
                 </Link>
 
             </Menu>
